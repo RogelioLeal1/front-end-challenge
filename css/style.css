@@ -1,0 +1,178 @@
+
+/*  Layout */
+body {
+  margin: 0;
+  font-family: Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: inherit;
+}
+
+img {
+  display: block;
+  vertical-align: top;
+  border-style: none;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+
+/* Section Specific */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.route-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: -0.024em;
+  color: #000000;
+}
+
+.time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  letter-spacing: -0.016em;
+  color: #8C8C8C;
+}
+
+.destination {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: -0.0241176em;
+  color: #000000;
+}
+
+.route-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: -0.016em;
+  border-radius: 50%;
+}
+
+.routes-return {
+  position: absolute;
+  top: 48px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 17px;
+  letter-spacing: -0.024em;
+  color: #FFFFFF;
+}
+
+td.route-number:before {
+  content: attr(data-char);
+  display: block;
+  background: #979797;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+td.route-number.jfour:before {
+  background: #0080FF;
+}
+
+td.route-number.xsix:before {
+  background: #FF0000;
+}
+.table td, .table th {
+  vertical-align: middle;
+  padding-top: .7em;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-bottom: 1px solid #8FD8DC;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+/* Id Specific*/
+#nav-container {
+  background-color: #7e88e6;
+  height: 5.33em;
+}
+#Route-Name {
+  position: relative;
+  top: 48px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.024em;
+  color: #FFFFFF;
+}
+
+/* Media queries*/
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 100%;
+  }
+  #nav-container {
+    background-color: #7e88e6;
+    height: 10em;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width: 100%;
+  }
+}
