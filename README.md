@@ -11,6 +11,8 @@ set to arrive solving the issue of having to rush to a bus stop only to find out
 ![Samsung Galaxy S9 Plus Mockup Free PSD](https://user-images.githubusercontent.com/35103232/55512135-52423380-5630-11e9-8c44-4094d20f4d03.png)
 
 ### Tools &  Programming Languages Used
-Description of programs and tools used to Create application
+This App was written using:
+
 •HTML
+
 •CSS
